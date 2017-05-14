@@ -1,1 +1,1 @@
-# unit-testing-playground
+# Experimenting unit testing with Java and Spring Framework

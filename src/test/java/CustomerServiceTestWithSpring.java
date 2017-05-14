@@ -28,8 +28,8 @@ public class CustomerServiceTestWithSpring {
   @Test
   public void assertNotCustomerService() {
     assertNotNull(customerService);
+    customerService.setCustomer(customer);
     assertEquals(customerService.getCustomer().getName(), "prajesh");
-
   }
 
   @Configuration
